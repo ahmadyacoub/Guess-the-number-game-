@@ -77,25 +77,6 @@ Build and Run:
 Sync the project with Gradle.
 Run the app on an emulator or physical device running Android 8.0 or later.
 
-
-
-Project Structure
-number-guessing-game/
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/todo1/
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   ├── game_page.java
-│   │   │   ├── res/
-│   │   │   │   ├── layout/
-│   │   │   │   │   ├── activity_main.xml
-│   │   │   │   │   ├── activity_game_page.xml
-│   │   │   │   ├── mipmap/
-│   │   │   │   │   ├── ic_launcher.png
-│   ├── build.gradle
-├── README.md
-
 Dependencies
 
 AndroidX Core
@@ -109,15 +90,7 @@ dependencies {
     implementation 'androidx.core:core:1.12.0'
 }
 
-Screenshots
-(To be added: Screenshots of the input screen, game page, and notification.)
-Future Enhancements
 
-Add a scoring system based on the number of guesses.
-Implement difficulty levels (e.g., wider number range or limited guesses).
-Enhance UI with animations for button presses and transitions.
-Store high scores locally using SharedPreferences.
-Support multiple languages for broader accessibility.
 
 Contributing
 Contributions are welcome! Please follow these steps:
